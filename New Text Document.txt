@@ -1,0 +1,9 @@
+#!C:/Users/DELL/AppData/Local/Programs/Python/Python312/python
+print("Content-Type:text/html")
+print()
+import cgi
+import traceback
+from pymongo import MongoClient
+import pymongo
+f=cgi.FieldStorage()
+t1=f.getvalue("t1")

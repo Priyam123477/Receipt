@@ -1,0 +1,167 @@
+<center>
+<style>
+#bgpic
+{
+  padding: 0px;
+  background: url("bluerose.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+		background-color:rgba(300,80,0,0.3);
+		opacity: 0.9;
+		border-radius: 5px;
+		height=20px;
+		background-image:linear-gradient(darkblue,purple);
+		#box-shadow: 0 4px 2px rgba(0,0,0,0.4);
+		background-size: cover;
+	}
+.form {	
+		
+		opacity: 0.9;
+		border-radius: 8px;
+		height=200px;
+		width:1300px;
+		#background-image:linear-gradient(to top,fff);
+		background:white;		
+ 		display:flex;
+ 	flex-direction:none;
+ 	align-items:center;
+ 	margin:auto;
+ 	margin-top:1px;
+	box-shadow: 0 12px 13px rgba(100,0,100,0.6);
+ 	border-radius:20px;
+}
+ h1
+{
+	color:maroon;
+	font-size: 2rem;
+	font-weight:bold;
+	#border-bottom:4px solid  rgba(255,255,255,0.5);
+	#box-shadow: 0 13px 13px rgba(0,0,0,0.5);
+	#background-image:linear-gradient(to right,darkblue,purple);
+	#border-radius:10px;
+	margin:20px
+	width=150px
+	text-align:center ;
+
+
+}
+input[type=submit],input[type=button]{
+			  			background-image:linear-gradient(to right,darkblue,purple);
+
+  			border: none;
+  			color: fff;
+  			padding: 15px 12px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 24px;
+  			margin: 10px 12px;
+  			cursor: pointer;
+ 			border-radius: 12px;
+ 			width:230px;
+ 			font-weight:bold;
+			 position: relative;
+}
+input[type=text],input[type=number],input[type=date],select{
+			 border:none;
+  			 border-bottom: 2px solid black;
+			 padding:4px;
+			 text-align:left ;
+			width:209px;
+			font-weight:bold;
+			text-align: center;
+
+
+}
+th{
+		color:maroon;
+		font-weight:bold;
+		padding:3px;
+		font-size:1.4rem;
+		 text-align: ;
+		margin-left:5px;
+}
+
+</style>
+<form name=f method=post action=reciept1.py >
+<body>
+<table border=0 class="form">
+	<tr>
+		<th rowspan=5 text align=left ><center><font size=5px>GET PROJECT</font><br>"Your Brand,Our Platform"</th><th colspan=4><h1>GET IT PROJECT PVT.LTD.</h1></th
+	</tr>
+	<tr>
+		<th colspan=4><br><center>2nd Floor,UPA Complex,Above Axis Bank,Arya Kumar Road</th><th colspan=2 rowspan=2><h3 p align=right><center>Date:<input type=date name=t1></th>
+	</tr>
+	<tr>
+		<th colspan=4>Rajendra Nagar,Patna-800016</th>
+	</tr>
+	<tr>
+		<th colspan=4>Email:getproject247@gmail.com,Call:8292303030,7258040404</th>
+		<th colspan=2 rowspan=2><h3 p align=right><center>SI.No.<input type=text name=t2></h3></th>
+	</tr>
+	<tr>
+		<th colspan=4><p align center>www.getproject.net</h3></th>
+	</tr>
+	<br>
+	<tr>
+		<th>Recieved with thanks from</th>
+		<th><input type=text name=t3></th>
+	</tr>
+	<tr>
+		<th>The Sum of Rupees(Rs)</th>
+		<th><input type=number name=t4></th>
+		<th>In Words</th>
+		<th><input type=text name=t5></th>
+
+	</tr>
+	<tr>
+		<th>By</th>
+		<th><select name=s>
+			<option value=cash>Cash</option>
+			<option value=cheque>Cheque D.D.Fund Transfer</option>
+			<option value=online>Online Payment Details</option>
+			</select>
+		</th>
+		<th>Drawn on</th>
+		<th ><input type=text name=t6></th>
+	</tr>
+	<tr>
+		<th>Date</th>
+		<th><input type=date name=t7></th>
+		<th>On Account of</th>
+		<th><input type=text name=t8></th>
+	</tr>
+	<tr>
+		<th colspan=6 p align=right>Authorised Signature<br><input type=text name=t9></th>
+	</tr>
+	<tr>
+		<th colspan=4><h4 p align=left>Note Payment Non Refundable</h4></th><th colspan=2 rowspan=2><h2 p align=right>For Get IT Project Pvt. Ltd.</h2></th>
+	</tr>
+	<tr>
+		<th colspan=6><input type=button value=New onclick=k()>
+		<input type=submit value=Save name=b1>
+		<input type=submit value=AllSearch name=b1></th>
+	</tr>
+</table>
+</body>
+</form>
+<script>
+	function k()
+	   {
+		f.t1.value=""
+		f.t2.value=""
+		f.t3.value=""
+		f.t4.value=""
+		f.t5.value=""
+		f.t6.value=""
+		f.t7.value=""
+		f.t8.value=""
+		f.t9.value=""
+	   }
+</script>
+
+
+	
